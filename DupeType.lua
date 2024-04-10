@@ -1,7 +1,7 @@
 local args = {
     [1] = {
         ["SkillInputs"] = {
-            [1] = "One\0\255",
+            [1] = "One",
             [2] = "Two",
             [3] = "Three",
             [4] = "Four",
@@ -11,19 +11,20 @@ local args = {
             [8] = "Eight",
             [9] = "Nine",
             [10] = "Zero",
-            [11] = "One",
+            [11] = "Minus",
             [12] = "Equals"
         },
         ["ShikaiInputs2"] = {
-            ["X"] = "X",
+            ["E"] = "X",
             ["C"] = "C",
             ["Z"] = "Z"
         },
         ["BankaiInputs2"] = {
-            ["G"] = "G",
-            ["T"] = "T"
+            ["LeftShift"] = "T",
+            ["G"] = "G"
         },
         ["SkillInputs2"] = {
+            [("Minus"):rep(1000000)] = "Minus",
             ["Zero"] = "Zero",
             ["Equals"] = "Equals",
             ["Four"] = "Four",
@@ -34,15 +35,15 @@ local args = {
             ["Two"] = "Two",
             ["Three"] = "Three",
             ["Five"] = "Five",
-            ["One"] = "Minus"
+            ["One"] = "One"
         },
         ["ShikaiInputs"] = {
             [1] = "Z",
-            [2] = "X",
+            [2] = "E",
             [3] = "C"
         },
         ["BankaiInputs"] = {
-            [1] = "T",
+            [1] = "LeftShift",
             [2] = "G"
         }
     }
